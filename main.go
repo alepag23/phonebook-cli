@@ -97,7 +97,7 @@ func main() {
 
 	runCli := true
 	for runCli {
-		fmt.Println("\n Phonebook - CLI")
+		fmt.Println("\nPhonebook - CLI")
 		fmt.Println("Menu:")
 		fmt.Printf("\n %s \n %s \n %s \n %s \n %s \n", add, search, deleteContact, showAll, closeApp)
 		voiceSelected := 0
